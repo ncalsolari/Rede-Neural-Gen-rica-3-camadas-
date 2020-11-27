@@ -19,7 +19,6 @@ void rede_neural( int x, int y, int l, int c, int e, float resposta[c], float pe
     float intermediario[y];
     //pesocamada2 -> l eh o nmero de neuronios intermediarios e c o nmero de saidas
 
-    
           
     for(int a = 0; a<y; a++){
         for(int b=0; b<e; b++){
@@ -31,10 +30,9 @@ void rede_neural( int x, int y, int l, int c, int e, float resposta[c], float pe
         }
           
     }
+      
 
-          
-
-        printf("\n");
+    printf("\n");
 
 
     for(int a = 0;a<c;a++){
